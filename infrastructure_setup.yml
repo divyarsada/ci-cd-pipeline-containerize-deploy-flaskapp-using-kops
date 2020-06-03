@@ -1,0 +1,24 @@
+Parameters:
+    BucketName:
+        Description: S3Bucket name
+        Type: String
+    HostedZone: 
+        Description: Domain name to create route53
+        Type: String
+        
+Resources:
+    DNS: 
+      Type: "AWS::Route53::HostedZone"
+      Properties: 
+        HostedZoneConfig: 
+          Comment: 'Hosted zone for cluster'
+        Name: !Ref 'HostedZone'
+        VPCs: 
+          - 
+            VPCId: 'vpc-8a594bf0'
+            VPCRegion: 'us-east-1'
+      
+    S3Bucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: !Ref 'BucketName'
