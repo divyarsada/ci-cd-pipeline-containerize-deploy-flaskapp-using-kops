@@ -5,7 +5,7 @@
 ### Scope of the Project
 
 
-In this project a sample helloworld flask application is containerized using docker and deployed to Kops cluster created on AWS. This is achieved by creating a kops cluster and building CI/CD pipeline which conists of mutiple stages for build,test,dockerize the application,pushing to dockerhub registry and finally deploy to the kcluster. The deployment strategy used here is Rolling Update.
+In this project a sample helloworld flask application is containerized using docker and deployed to Kops cluster created on AWS. This is achieved by creating a kops cluster and building CI/CD pipeline which conists of mutiple stages for build,test,dockerize the application,pushing to dockerhub registry and finally deploy using rolling update deployment strategy to the kops cluster. 
 
 ### Environment Setup
 
