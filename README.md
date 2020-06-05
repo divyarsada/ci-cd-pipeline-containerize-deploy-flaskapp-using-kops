@@ -1,6 +1,6 @@
-## ci-cd-pipeline-containerize-python-flaskapp
+## ci-cd-pipeline-containerize-deploy-flaskapp-using-kops
 
-[![<ORG_NAME>](https://circleci.com/gh/divyarsada/ci-cd-pipeline-containerize-python-flaskapp.svg?style=shield)](https://app.circleci.com/pipelines/github/divyarsada/ci-cd-pipeline-containerize-python-flaskapp/4/workflows/c012bd18-2c9e-4f1c-a20c-8116ff7e47a0/jobs/5)
+[![<ORG_NAME>](https://circleci.com/gh/divyarsada/ci-cd-pipeline-containerize-deploy-flaskapp-using-kops.svg?style=shield)](https://app.circleci.com/pipelines/github/divyarsada/ci-cd-pipeline-containerize-deploy-flaskapp-using-kops/4/workflows/c012bd18-2c9e-4f1c-a20c-8116ff7e47a0/jobs/5)
 
 ### Scope of the Project
 
