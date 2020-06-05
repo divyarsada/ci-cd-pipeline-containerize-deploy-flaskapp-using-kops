@@ -39,4 +39,4 @@ jobs:
             pyinstaller -F app.py
             docker build -t sampletest19/$IMAGE_NAME:$TAG .
             echo $DOCKER_PWD | docker login -u $DOCKER_LOGIN --password-stdin
-            docker push ariv3ra/$IMAGE_NAME:$TAG
+            docker push sampletest19/$IMAGE_NAME:$TAG
