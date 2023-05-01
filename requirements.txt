@@ -4,4 +4,4 @@ jupyter
 pytest-cov
 nbval
 Click==7.0
-Flask==1.0.2
+Flask==2.3.2
